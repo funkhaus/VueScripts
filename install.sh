@@ -1,6 +1,5 @@
 echo "INSTALLING VUE SCRIPTS"
 
-# SCRIPTS_DIR="source `pwd`/scripts/install_helper.sh"
 BASH_PROFILE=~/.bash_profile
 PWD=`pwd`
 SCRIPTS_DIR=(`find ${PWD}/scripts -name '*.sh'`)
