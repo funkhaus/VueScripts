@@ -1,6 +1,6 @@
 #!/bin/sh
 
-init_vuepress() {
+vuepress-install() {
 	# This function requires you are in the theme directory of vuepress
 	#Get arguments
 	THEME_NAME="$1"
